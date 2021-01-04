@@ -19,6 +19,8 @@ class Pendulum {
         push();
         translate(pos.x,pos.y);
         ellipseMode(CENTER);
+        strokeWeight(4);
+        stroke(255);
         fill(0);
         ellipse(0,0,this.radius,this.radius);
         pop();
